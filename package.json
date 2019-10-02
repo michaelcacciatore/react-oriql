@@ -1,0 +1,42 @@
+{
+  "name": "react-oriql",
+  "version": "0.1.0-alpha.1",
+  "description": "React bindings for the Oriql schema compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelcacciatore/react-oriql.git"
+  },
+  "keywords": [
+    "react",
+    "oriql",
+    "graphql"
+  ],
+  "author": "Michael Cacciatore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelcacciatore/react-oriql/issues"
+  },
+  "homepage": "https://github.com/michaelcacciatore/react-oriql#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "husky": "^3.0.8",
+    "lint-staged": "^9.4.1",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
+    "react": "^16.9.0"
+  }
+}
